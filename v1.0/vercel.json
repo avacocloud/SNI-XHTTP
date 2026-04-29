@@ -1,8 +1,8 @@
 {
-  "version": 2,
-  "name": "sni-xhttp",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/api/index" }
-  ],
-  "trailingSlash": false
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/api/index"
+    }
+  ]
 }
